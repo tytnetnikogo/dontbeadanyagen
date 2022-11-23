@@ -1,0 +1,328 @@
+.flex
+{
+    displayflex
+}
+.jcsa
+{
+    justify-contentspace-around
+}
+.jcsb
+{
+    justify-contentspace-between
+}
+.jcc
+{
+    justify-contentcenter
+}
+.aic
+{align-itemscenter
+}
+.button
+{
+    displayinline-block;
+    bordernone;
+    background-color: #dc143c;
+    color: #fff;
+    padding: .8rem;
+    font-size: .8rem;
+    cursor: pointer;
+    border-radius:5px;
+    transition:2s ease-out 
+    background-color;
+    text-transform: uppercase;
+    font-family: 'Nunito',Arial,Helvetica,sans-serif}
+    .buttonhover
+    {
+        background-color: #f05b79
+    }
+    #container
+    {
+        position:relative;
+        width:100vw;
+        height:100vh;
+        z-index:10
+    }
+    body
+    {
+        font-family:'Nunito',Arial,Helvetica,sans-serif;
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        transition: 1.7s 
+        background-image
+    }
+    body #dark
+    {
+        z-index:2;
+        position: absolute;
+        display: block;
+        width:100%;
+        height:100vh;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        background-color:#000;
+        content''
+        ;opacity: .5
+    }
+    #banner
+    {
+        width:100%;
+        height:2rem;
+        background-color:#dc143c;
+        border-top-right-radius:5px;
+        border-top-left-radius:5px;
+        opacity:.94;
+        text-align:center;
+        color: #fff
+    }
+    #content
+    {
+        background-color: #fff;
+        opacity: .94;
+        padding: 2em;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius:5px;
+        border-radius:5px
+        ;max-width:80vw
+    }#content .h1
+    {
+        font-size1.5rem
+    }
+    #content .h1 + p
+    {
+        margin10px 0;font-size.8rem;color#111
+    }
+    .footer
+    {
+        width100%;z-index100;margin-bottom1rem;color#fff;bottom0;positionabsolute;text-aligncenter;font-size.9rem
+    }
+    .footer a
+    {
+        color#fff
+    }
+    #card
+    {
+        displayflex;flex-directioncolumn
+    }
+    #card-nickname
+    {
+        order1
+    }
+    @media screen and (max-width550px)
+    {
+        #card-nickname
+        {
+            text-aligncenter
+        }
+    }
+    #card-generate-ghoul
+    {
+        order2
+    }
+    #codex
+    {
+        order3
+    }
+    #card
+    {
+        margin-top:2rem;
+        displaygrid;
+        grid-template-areasg n g c;grid-template-rowsauto 100%
+    }
+    #card #codex
+    {
+        grid-areac
+    }
+    #card #codex p
+    {
+        max-width25rem
+    }
+    #card 
+    #card-generate-ghoul
+    {
+        grid-areag
+    }
+    #card #card-ghoul
+    {
+        width10rem;
+        height10rem;
+        background-sizecover;
+        background-positioncenter;
+        border-radius5px;
+        margin-right2rem;
+        margin-bottom1rem;
+        cursorcrosshair;
+        transition.4s 
+        background-image
+    }
+    #card 
+    #card-generate-button
+    {
+        width10rem;
+        displayblock;
+        -webkit-user-selectnone; 
+        -moz-user-selectnone;
+        -ms-user-selectnone;
+        user-selectnone
+    }
+        #card #card-nickname
+        {
+            font-size1.8rem;grid-arean
+        }
+        #codex-header
+        {
+            margin-top1rem;
+            margin-bottom.5rem;
+            font-size1.2rem;
+            cursorpointer;
+            color#333;
+            text-decorationunderline;
+            transition.2s color;
+            -webkit-user-selectnone;
+            -moz-user-selectnone;
+            -ms-user-selectnone;
+            user-selectnone;
+            displayinline-block
+        }
+        #codex-headerhover
+        {
+            color#dc143c
+        }
+        #codex-text
+        {
+            color#333
+        }
+        @media screen and (min-width2100px)
+        {
+            html
+            {
+                font-size2vw
+            }
+        }
+        @media screen and (max-width2000px)
+        {
+            html{font-size20px
+            }
+        }@media screen and (max-width1600px)
+        {
+            html{font-size18px
+            }
+        }@media screen and (max-width1250px)
+        {
+            html
+            {
+                font-size17px
+            }
+        }@media screen and (max-width1000px)
+        {
+            html
+            {
+                font-size16px
+            }
+        }@media screen and (max-width650px)
+        {
+            html
+            {
+                font-size14px
+            }
+        }@media screen and (max-width550px)
+        {
+            .footer
+            {
+                color#000;
+                margin0;
+                margin-top1rem;
+                margin-bottom1rem;
+                positionrelative;
+                background-color#fff;
+                z-index10;
+                font-size1.1rem
+            }
+            .footer a
+            {
+                color#dc143c
+            }
+            html
+            {
+                font-size13px
+            }
+            html body,html 
+            #dark
+            {
+                background-color#fff
+            }
+            #card
+            {
+                grid-template-areasn g c;
+                grid-template-rowsauto
+            }
+            #card #card-generate-button
+            {
+                width100%;
+                margin-bottom2rem;
+                margin-top2rem;
+                font-size1.2rem;
+                padding1.3rem
+            }
+            #card 
+            #card-nickname
+            {
+                font-size2.2rem;
+                margin-bottom2rem;
+                margin-top1rem
+            }
+            #card 
+            #card-generate-ghoul
+            {
+                displayflex;
+                align-itemscenter;
+                align-contentcenter;
+                flex-directioncolumn
+            }
+            #card 
+            #card-ghoul
+            {
+                width100%;
+                margin-right0
+            }
+            #content
+            {
+                width100% !important;
+                max-width100vw !important;
+                box-sizingborder-box;
+                height100%;
+                border-radius0
+            }
+            #banner
+            {
+                border-radius0;
+                height3rem
+            }
+            #container
+            {
+                height100%
+            }
+            #about
+            {
+                font-size1rem !important
+            }
+            #header
+            {
+                font-size1.8rem !important;
+                margin-top1rem
+            }
+            #support p
+            {
+                width100vw;
+                border-radius0
+            }
+        }@media screen and (max-width300px)
+        {
+            html
+            {
+                font-size11px
+            }
+        }
